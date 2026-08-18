@@ -56,5 +56,13 @@
     "dsh.plugin.json",
     "README.md",
     "LICENSE"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yi-pie/dsh-html-preview.git"
+  },
+  "homepage": "https://github.com/Yi-pie/dsh-html-preview#readme",
+  "bugs": {
+    "url": "https://github.com/Yi-pie/dsh-html-preview/issues"
+  }
 }

@@ -74,3 +74,5 @@ dsh-web restart   # 或按你的方式重启 dsh web
 ## License
 
 MIT
+
+> 💡 安装提示：DSH 标准 profile 已内置 `autoInstallPeers: false`（peer 依赖由 profile 环境解析）。若你的 profile 是非标准手工创建、安装时报 `@deepseek-ai/* is not in the npm registry`，请在 `~/.dsh/profiles/web/pnpm-workspace.yaml` 中加入 `autoInstallPeers: false` 后重新 `pnpm install`。
