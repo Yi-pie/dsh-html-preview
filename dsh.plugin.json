@@ -1,10 +1,15 @@
 {
   "name": "dsh-html-preview",
-  "description": "HTML preview panel: preview workspace HTML files, edit page copy inline, box-select regions and annotate them for the AI to fix.",
+  "description": "dsh插件｜DeepSeek Harness Web 插件：HTML 预览面板（网页预览 / HTML preview）——点击文字直接改文案、框选区域批注给 AI、整页缩放适配 PC 页面、会话区分离为置顶悬浮窗；会话中点击 HTML 文件自动打开预览。零构建、随 DSh 启动自动加载。",
   "version": "0.1.0",
   "entry": {
     "name": "dsh-html-preview",
-    "inject": ["fs", "webServer", "agents", "tools"]
+    "inject": [
+      "fs",
+      "webServer",
+      "agents",
+      "tools"
+    ]
   },
   "client": {
     "platform": "web"
