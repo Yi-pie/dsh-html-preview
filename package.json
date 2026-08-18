@@ -1,0 +1,44 @@
+{
+  "name": "dsh-html-preview",
+  "version": "0.1.0",
+  "description": "DSH Web 插件：HTML 预览面板——在会话侧预览工作区 HTML、直接改文案、框选区域批注给 AI、整页缩放适配，并支持将会话区分离为置顶悬浮窗。",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "cordis",
+    "html-preview",
+    "web-ui",
+    "annotate",
+    "floating-conversation",
+    "plugin"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "*",
+    "@deepseek-ai/dsh-tools": "*",
+    "react": "^18.2.0"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": []
+    }
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "dsh.plugin.json",
+    "README.md",
+    "LICENSE"
+  ]
+}

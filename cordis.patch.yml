@@ -1,0 +1,4 @@
+# dsh-html-preview: mount the preview panel host row into the composition.
+- insert:
+    - id: dsh-html-preview
+      name: dsh-html-preview

@@ -1,0 +1,12 @@
+{
+  "name": "dsh-html-preview",
+  "description": "HTML preview panel: preview workspace HTML files, edit page copy inline, box-select regions and annotate them for the AI to fix.",
+  "version": "0.1.0",
+  "entry": {
+    "name": "dsh-html-preview",
+    "inject": ["fs", "webServer", "agents", "tools"]
+  },
+  "client": {
+    "platform": "web"
+  }
+}

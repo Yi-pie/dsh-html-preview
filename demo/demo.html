@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>演示页面 · HTML 预览插件</title>
+<style>
+  :root { --brand: #2f6bff; --ink: #1c1c1e; --muted: #8a8a90; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: system-ui, -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; color: var(--ink); background: linear-gradient(180deg, #f4f7ff 0%, #ffffff 260px); min-height: 100vh; }
+  header.hero { padding: 72px 24px 56px; text-align: center; }
+  h1.title { font-size: 40px; letter-spacing: .5px; margin-bottom: 16px; }
+  p.subtitle { color: var(--muted); font-size: 16px; max-width: 520px; margin: 0 auto 32px; }
+  button.cta { background: var(--brand); color: #fff; border: 0; border-radius: 10px; font-size: 16px; padding: 13px 28px; cursor: pointer; box-shadow: 0 8px 20px rgba(47,107,255,.28); }
+  button.cta:hover { background: #1f57e0; }
+  section.cards { display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; padding: 24px 32px 64px; }
+  .card { background: #fff; border: 1px solid #e6e8f0; border-radius: 14px; padding: 24px; width: 280px; box-shadow: 0 4px 14px rgba(20,24,40,.06); }
+  .card h3 { font-size: 17px; margin-bottom: 10px; }
+  .card p { color: var(--muted); font-size: 14px; line-height: 1.6; }
+  footer { text-align: center; color: var(--muted); font-size: 13px; padding: 28px; }
+</style>
+</head>
+<body>
+  <header class="hero">
+    <h1 class="title">欢迎体验 HTML 预览插件</h1>
+    <p class="subtitle">在侧边栏直接预览页面，点击文字即可修改文案，框选任意区域就能把修改意见批注给 AI。</p>
+    <button class="cta">立即开问问始</button>
+  </header>
+  <section class="cards">
+    <div class="card">
+      <h3>直接改文案</h3>
+      <p>切换到「改文案」模式，点击页面上任意文字直接编辑，保存后写回源文件。</p>
+    </div>
+    <div class="card">
+      <h3>框选批注</h3>
+      <p>切换到「批注」模式，拖拽框选页面区域，告诉 AI 这里应该如何修改。</p>
+    </div>
+    <div class="card">
+      <h3>真实渲染</h3>
+      <p>CSS、脚本与图片按真实 HTTP 服务加载，所见即所得。</p>
+    </div>
+  </section>
+  <footer>演示文件：html-preview-demo.html · 试试修改上面任何一句文案</footer>
+</body>
+</html>
