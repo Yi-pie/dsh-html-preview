@@ -21,7 +21,7 @@ DeepSeek Harness (DSH) Web 插件：把 HTML 预览、直接改文案、区域�
 
 ```bash
 cd ~/.dsh/profiles/web
-pnpm add github:<你的用户名>/dsh-html-preview   # 或使用 zip/tarball 地址
+pnpm add github:Yi-pie/dsh-html-preview   # 或使用 zip/tarball 地址
 ```
 
 然后在 `~/.dsh/profiles/web/package.json` 的 `dsh.profile.bundles` 末尾加入 `"dsh-html-preview"`：
