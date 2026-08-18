@@ -1,6 +1,6 @@
 {
   "name": "dsh-html-preview",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "dsh插件｜DeepSeek Harness Web 插件：HTML 预览面板（网页预览 / HTML preview）——点击文字直接改文案、框选区域批注给 AI、整页缩放适配 PC 页面、会话区分离为置顶悬浮窗；会话中点击 HTML 文件自动打开预览。零构建、随 DSh 启动自动加载。",
   "keywords": [
     "dsh",
@@ -64,5 +64,11 @@
   "homepage": "https://github.com/Yi-pie/dsh-html-preview#readme",
   "bugs": {
     "url": "https://github.com/Yi-pie/dsh-html-preview/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "prepublishOnly": "node --check lib/index.js && node --check lib/client.js"
   }
 }
