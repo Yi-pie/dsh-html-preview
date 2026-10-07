@@ -1,7 +1,7 @@
 {
   "name": "dsh-html-preview",
-  "version": "0.1.1",
-  "description": "dsh插件｜DeepSeek Harness Web 插件：HTML 预览面板（网页预览 / HTML preview）——点击文字直接改文案、框选区域批注给 AI、整页缩放适配 PC 页面、会话区分离为置顶悬浮窗；会话中点击 HTML 文件自动打开预览。零构建、随 DSh 启动自动加载。",
+  "version": "0.2.0",
+  "description": "dsh插件｜DeepSeek Harness Web 插件：HTML 预览面板（网页预览 / HTML preview）——在右栏标签页中真实渲染页面、点击文字直接改文案、框选区域批注给 AI、整页缩放适配 PC 页面；点击会话中的 HTML 文件直接在右栏打开。已适配 DSH 0.2.x 的右栏标签页体系（sidebarRightTabs）。零构建、随 DSh 启动自动加载。",
   "keywords": [
     "dsh",
     "dsh-plugin",
@@ -17,13 +17,12 @@
     "ai-annotate",
     "edit-copy",
     "改文案",
-    "floating-window",
-    "悬浮窗",
-    "会话悬浮",
     "zoom",
     "fit-width",
     "缩放适配",
     "pc页面",
+    "sidebar-right",
+    "right-panel",
     "cordis",
     "web-ui",
     "preview-panel"
